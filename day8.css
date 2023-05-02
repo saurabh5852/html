@@ -1,0 +1,71 @@
+:root {
+    --primaryColor: #577D86;
+    --backgroundColor: #B9EDDD;
+    --myTitleFont: 'Dancing Script', cursive;
+    --titleFont: 'Sacremento', cursive;
+    --fontDefaultTextFont: 'Lato', sans-serif;
+    --fontDefaultHeading: 'Montserrat', sans-serif;
+}
+
+
+/* main css */
+
+body {
+    margin: 0px;
+}
+
+.top-section {
+    background-color: var(--backgroundColor);
+    color: var(--primaryColor);
+    /* height: 400px; */
+    text-align: center;
+    padding-top: 200px;
+}
+
+.heading {
+    /* font-size:xx-large; */
+    /* font-family:Verdana, sans-serif; */
+    font-family: 'Ubuntu', sans-serif;
+}
+
+font-family: var(--myTitleFont);
+margin: 0;
+
+}
+.bio {
+    font-family: var(--fontDefaultTextFont);
+    margin: 0;
+    font-size: 0.85em;
+    /* 1em = 16px */
+    
+    padding-bottom: 20px;
+}
+.top-cloud {
+    position: absolute;
+    margin-block-start: -300px;
+    margin-left: 200px;
+    width: 200px;
+}
+.bottom-cloud {
+    position: absolute;
+    margin-block-start: 50px;
+    margin-left: -100px;
+    width: 100px;
+}
+.mountain {
+    width: 600px;
+}
+img {
+    margin-bottom: -100px;
+}
+.profile-pic {
+    border-radius: 100;
+    width: 200;
+    margin: auto;
+    display: block;
+}
+
+/* 
+font-family: 'Dancing Script', cursive;
+font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif;
